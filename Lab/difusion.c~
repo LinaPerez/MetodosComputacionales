@@ -1,0 +1,23 @@
+#include<stdio.h>
+#include<math>
+
+int main (){
+
+  int n_x=80;
+  int n_t = 100;
+
+  float c = 1.0;
+  float nu = 0.3;
+  float sigma = 0.2;
+
+  float* x;
+  int dx = x[1]-x[0];
+
+  x = malloc(n_x*sizeof(float));
+
+  for i in range (n_x){
+      x[i]=i*dx;
+    }
+
+  return 0;
+}
